@@ -1,0 +1,14 @@
+downlad graphlab
+
+after install graphlab, put assmebly.cpp and CMakeList.txt under graphlab/apps/assembly
+then under graphlab/, do ./configure
+
+then
+cd graphlab/release/apps/assembly
+Put GraphLab_Input.txt under this directory.
+Then do
+make
+./assembly --infile=GraphLab_Input.txt --outfile=output --source=33 --destination=5
+
+
+Everytime you modify assembly.cpp, you need to do make. 
